@@ -10,14 +10,14 @@ Open my Browser
 
 Enter Username
     [Arguments]     ${username}
-    Input Text    ${textbox_username_id}    ${username}
+    Input Text      xpath://input[@name='username']    ${username}
 
 Enter password
     [Arguments]     ${password}
-    Input Text   ${textbox_password_id}     ${password}
+    Input Text      xpath://input[@type='password']     ${password}
 
 click SignIn
-    Click Button    ${button_login_xpath}
+    Click Button    xpath://button[normalize-space()='Login']
     
 Verify Successful Login
     Title Should Be    OrangeHRM
