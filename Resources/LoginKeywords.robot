@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Variables   C:\Users\Avinash\PycharmProjects\orangeHRMWithRobotFrameworkProject\PageObjects\Locators.py
+Resources   ..\PageObjects\Locators.py
 
 *** Keywords ***
 Open my Browser
