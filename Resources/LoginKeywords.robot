@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource   ..\PageObjects\Locators.py
+Resource    ..\PageObjects\Locators.py
 
 *** Keywords ***
 Open my Browser
